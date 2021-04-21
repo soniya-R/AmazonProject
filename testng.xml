@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/evson/IdeaProjects/AmazonProject/src/main/java/org/amazon/pages/SignInPage.java">
+        <parameter name="userEmail" value="saammpple@gmail.com"/>
+        <parameter name="password" value="asdf123!@#"/>
+        <classes>
+            <class name="org.amazon.pagesTest.SignInPageTest"/>
+            <class name="org.amazon.pagesTest.HomepageTest"/>
+            <class name="org.amazon.pagesTest.SearchResultPageTest"/>
+            <class name="org.amazon.pagesTest.SelectedItemPageTest"/>
+            <class name="org.amazon.pagesTest.AddToCartPageTest"/>
+            <class name="org.amazon.pagesTest.CheckoutPageTest"/>
+
+        </classes>
+
+    </test>
+</suite>
